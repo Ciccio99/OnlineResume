@@ -1,0 +1,289 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+	font-size: 40px;
+	color: #fe8181;
+}
+
+h2{
+	font-size: 35px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 25px;
+}
+
+h5{
+	font-size: 20px;
+}
+
+html, body{
+	font-family: Arial, Helvetica, sans-serif;
+	/*min-height: 100%;
+	min-width: 100%;*/
+}
+body {
+	height: 1000px;
+	min-width: 100%;
+	background-color: #f2f4fc;
+}
+header{
+	min-width:100%;
+	background-color: #36454f;
+}
+
+#Header_Menu li{
+	display: inline-block;
+}
+
+#Top_Nav{
+	margin: auto;
+	height: 2em;
+	color: #FCFCFC;
+}
+#Top_Nav li{
+	float:left;
+	margin: auto;
+	width: 60px;
+}
+
+#Top_Nav a{
+	text-decoration: none;
+	text-align: center;
+}
+
+#Top_Nav a:visited{
+	text-decoration: none;
+	color: #FCFCFC;
+}
+#Header_Menu{
+	width: 10%;
+	margin: auto;
+	text-align: center;
+}
+
+#Head_About{
+	width: 3em;
+	float: left;
+	margin: auto;
+	text-align: center;
+}
+
+
+#Head_Contact{
+	width: 3em;
+	margin: auto;
+	text-align: center;
+}
+ #Left_Panel{
+ 	min-height:100%;
+ 	height: 1000px;
+ 	position: absolute;
+ 	right: 80%;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	padding: 5px;
+ 	border-right:solid 1px #E0e0e0;
+ 	background-color: #536878;
+ 	/*background-color: #424242;*/
+ 	color: #FCFCFC;
+
+ 	webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+ }
+
+ #Profile_Pic{
+ 	position: static;
+ 	margin-top: 30px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+
+	width: 150px;
+	height: 150px;
+	/*border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;*/
+
+ }
+
+#Profile_Links{
+	font-size: 15px;
+	position: static;
+	width: 15em;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+#Profile_Links ul{
+	margin: auto;
+}
+
+#Profile_Links li{
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	margin-left: 8px;
+}
+
+#Profile_Info{
+	font-size: 15px;
+	margin: 2em 1em 1em 1em;
+}
+
+#Profile_Info p{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#Profile_Info h3 span{
+	color: #fe8181;
+}
+
+#Main_Panel{
+	position: absolute;
+	left: 0;
+	top: 0 ;
+	right: 0;
+	bottom: 0;
+	text-align: left;
+	
+	margin-left: 20%;
+
+	webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+
+#Main_Panel h5{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #303030;
+}
+
+#Main_Panel p{
+	color: #949494;
+}
+
+.Main_Mini_Panel{
+	font-size: 15px;
+	height: 12em;
+	width:100%;
+	padding: 10px;
+}
+
+.Panel_Bottom_Border{
+	border-bottom: solid 1px #E0e0e0;
+}
+
+.Main_Mini_Panel ul{
+	float: left;
+	margin: 1em;
+}
+
+
+.Main_Mini_Panel li{
+	margin: 0.5em;
+}
+
+#Experience_Div{
+	margin-bottom: 20px;
+}
+
+#Projects_Panel{
+	float:left;
+	width: 50%;
+}
+
+#Projects_Panel ul{
+	margin: 0;
+	margin-left: 9px;
+	list-style-type: circle;
+}
+
+#Info_Div_1{
+	height: 70px;
+}
+
+#Info_Div_2{
+	height: 110px;
+}
+
+#Info_Div_3{
+	height: 90px;
+}
+#Skills_Panel{
+	width: 50%;
+	float:right;
+}
+
+#Skills_Panel ul{
+	margin: 0;
+	margin-left: 9px;
+	margin-right: 1em;
+	list-style-type: circle;
+
+}
+
+
+
+
+
+
+
